@@ -1,0 +1,18 @@
+{
+  "name": "svg-to-coordinates",
+  "version": "1.0.0",
+  "description": "Returns a JSON object of x, y coordinates from a single layered svg.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "jsdom": "^11.1.0"
+  },
+  "dependencies": {
+    "jsonfile": "^3.0.1",
+    "svgutils": "^0.13.6"
+  },
+  "author": "",
+  "license": "ISC"
+}
