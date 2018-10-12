@@ -5,7 +5,7 @@ const output = {
   points: [],
 }
 
-Svg.fromSvgDocument('./images/globe.svg', function(error, svg) {
+Svg.fromSvgDocument('./images/globe-2.svg', function(error, svg) {
   // data is sourced from an svg containing 1 layer.
   const data = svg.elements[0].childs[0].childs
   // console.log(data)
@@ -16,7 +16,7 @@ Svg.fromSvgDocument('./images/globe.svg', function(error, svg) {
     })
   }
 
-  jsonfile.writeFile('./output.json', output, { spaces: 2 }, error => {
+  jsonfile.writeFile('./points.json', output, { spaces: 2 }, error => {
     console.error(error)
   })
 })
